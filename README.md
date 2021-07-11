@@ -1,4 +1,4 @@
-Programa que lança compras feitas no cartão de crédito NuBank automaticamente e rapidamente(cerca de 30 segundos) no software de orçamento YNAB (youneedabudget.com).
+Programa que lança compras feitas no cartão de crédito NuBank automaticamente e rapidamente (cerca de 30 segundos) no software de orçamento YNAB (youneedabudget.com).
 
 --MUITO Crédito para https://github.com/andreroggeri/, dev do https://github.com/andreroggeri/pynubank, que resolveu completamente a autenticação e comunicação com o Nubank. Também espiei o https://github.com/andreroggeri/nubank-sync-ynab, para descobrir como adicionar o certificado digital nas variáveis de ambiente do Heroku--
 
