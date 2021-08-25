@@ -11,9 +11,9 @@ Parte A: Subir o Servidor no Heroku com o App
   1: Obter o certificado digital do NuBank utilizando o PyNubank:
   https://github.com/andreroggeri/pynubank/blob/master/examples/login-certificate.md , e  codificar o arquivo em uma string base64 no diretório onde salvou o certificado, rode o seguinte comando em python:
 
-      file = open("cert.p12", "rb", ).read()
-      encoded = base64.b64encode(file)
-      print(encoded)
+file = open("cert.p12", "rb", ).read()
+encoded = base64.b64encode(file)
+print(encoded)
 
   Copie (sem o "b'" do início e o "'" do final)a string do resultado e guarde, será utilizado no passo 4
 
@@ -36,6 +36,8 @@ Parte A: Subir o Servidor no Heroku com o App
     Max_days - O número máximo de dias no passado que o programa irá sincronizar, recomendável até 30.
 
     SECRET_KEY_FLASK - qualquer valor, para melhorar a segurança, é recomendável algo acima de 10 dígitos.
+    
+    CPF_NU - O Cpf para login no aplicativo do nubank
 
     SENHA_NU - A senha do aplicativo do nubank (Não a senha do cartão)
 
